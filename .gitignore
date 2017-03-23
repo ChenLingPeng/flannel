@@ -7,4 +7,4 @@ dist/*.docker
 cover.out
 .editorconfig
 .idea/
-
+vagrant/

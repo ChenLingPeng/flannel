@@ -73,6 +73,9 @@ Subnet lease are renewed within 1h of their expiration (can be overridden via `-
   Note that this requires direct layer2 connectivity between hosts running flannel.
   * `Type` (string): `host-gw`
 
+* ipip: create IP routes to subnets via remote machine IPs with ipip tunnnel.
+  * `Type` (string): `ipip`
+
 * aws-vpc: create IP routes in an [Amazon VPC route table](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Route_Tables.html).
   * Requirements:
 	* Running on an EC2 instance that is in an Amazon VPC.
